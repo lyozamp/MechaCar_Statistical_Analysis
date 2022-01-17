@@ -3,7 +3,7 @@
 # Deliverable 1:
 ## Linear Regression to Predict MPG
 
-![alt text]
+![alt text](https://github.com/lyozamp/MechaCar_Statistical_Analysis/blob/main/Images/Screenshot1.png)
 
 From the above output we can see that:
 
@@ -15,7 +15,7 @@ This linear model has an r-squared value of 0.7149, which means that approximate
 
 If we remove the less impactful independent variables (vehicle weight, spoiler angle, and All Wheel Drive), the predictability does decrease, but not drastically: the r-squared value falls from 0.7149 to 0.674.
 
-![alt text]
+![alt text](https://github.com/lyozamp/MechaCar_Statistical_Analysis/blob/main/Images/Screenshot2.png)
 
 # Deliverable 2:
 ## Summary Statistics on Suspension Coils
@@ -24,11 +24,11 @@ The Suspension Coil dataset provided for the MechaCar contains the results of te
 
 First looking at all manufacturing lots:
 
-![alt text]
+![alt text](https://github.com/lyozamp/MechaCar_Statistical_Analysis/blob/main/Images/Screenshot3.png)
 
 Diving a little deeper into each of the 3 lots:
 
-![alt text]
+![alt text](https://github.com/lyozamp/MechaCar_Statistical_Analysis/blob/main/Images/Screenshot4.png)
 
 With the understanding that the design specifications for the MechaCar suspension coils mandate that the variance of the suspension coils cannot exceed 100 pounds per square inch (PSI) .
 
@@ -40,7 +40,7 @@ Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within th
 
 This very simple boxplot illustrates the differences between the lots:
 
-![alt text]
+![alt text](https://github.com/lyozamp/MechaCar_Statistical_Analysis/blob/main/Images/Screenshot5.png)
 
 # Deliverable 3:
 ## T-Tests on Suspension Coils
@@ -49,7 +49,7 @@ The next step is to conduct a t-test on the suspension coil data to determine wh
 
 There is a summary of the t-test results across all manufacturing lots
 
-![alt text]
+![alt text](https://github.com/lyozamp/MechaCar_Statistical_Analysis/blob/main/Images/Screenshot6.png)
 
 From here we can see the true mean of the sample is 1498.78, which we also saw in the summary statistics above. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
 
@@ -61,7 +61,7 @@ Lot 2 has essentially the same outcome with a sample mean of 1500.02, a p-Value 
 
 However, Lot 3, not surprisingly is a different scenario. Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
 
-![alt text]
+![alt text](https://github.com/lyozamp/MechaCar_Statistical_Analysis/blob/main/Images/Screenshot7.png)
 
 How does this information help? Clearly, something went awry in Lot 3's production cycle. The process needs to be checked for system fails and the suspension coils from this lot need to be inspected to remove those not meeting quality criteria.
 

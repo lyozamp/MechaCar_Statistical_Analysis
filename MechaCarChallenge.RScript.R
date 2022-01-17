@@ -5,7 +5,7 @@ library(dplyr)
 
 #4. Import and read in the MechaCar_mpg.csv file as a dataframe.
 library(tidyverse)
-mecha_mpg <- read.csv(file='./Resources/MechaCar_mpg.csv',check.names=F,stringsAsFactors = F) 
+mecha_mpg <- read.csv(file="./Resources/MechaCar_mpg.csv",check.names=F,stringsAsFactors = F) 
 
 #5. Perform linear regression using the lm() function
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mecha_mpg)
@@ -59,3 +59,4 @@ t.test(lot2$PSI,mu=1500)
 t.test(lot3$PSI,mu=1500)
 
 # log10 was not used as the data was not skewed and did not need any smoothing
+
